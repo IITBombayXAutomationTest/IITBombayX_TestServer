@@ -77,7 +77,7 @@ public class TS03_TC06 {
             
             
             
-            FileUtils.copyFile(scrFile, new File("screenshot.png"));
+            FileUtils.copyFile(scrFile, new File("E:/selenium_workspace/IITBombayX_TestServer/screenshot/screenshot.png"));
     }
 	    
 	  

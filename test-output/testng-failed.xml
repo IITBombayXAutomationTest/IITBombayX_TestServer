@@ -1,56 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation Test Report Of IITBombayX]">
-  <test name="TS04(failed)">
+  <test name="TS03(failed)">
     <classes>
-      <class name="com.iitbombayX.TS02.TS02_TC02">
+      <class name="com.iitbombayX.TS04.TS04_TC02">
         <methods>
-          <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS02.TS02_TC02 -->
-      <class name="com.iitbombayX.TS02.TS02_TC03">
+      </class> <!-- com.iitbombayX.TS04.TS04_TC02 -->
+      <class name="com.iitbombayX.TS03.TS03_TC01">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="beforemethod"/>
+          <include name="testHeaderLink"/>
+          <include name="aftermethod"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS02.TS02_TC03 -->
-      <class name="com.iitbombayX.TS02.TS02_TC05">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS02.TS02_TC05 -->
+      </class> <!-- com.iitbombayX.TS03.TS03_TC01 -->
       <class name="com.iitbombayX.TS01.TS01_TC03">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.iitbombayX.TS01.TS01_TC03 -->
-      <class name="com.iitbombayX.TS04.TS04_TC03">
+      <class name="com.iitbombayX.TS02.TS02_TC02">
         <methods>
-          <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS04.TS04_TC03 -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC02 -->
       <class name="com.iitbombayX.TS05.TS05_TC01">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.iitbombayX.TS05.TS05_TC01 -->
-      <class name="com.iitbombayX.TS03.TS03_TC06">
+      <class name="com.iitbombayX.TS01.TS01_TC02">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS03.TS03_TC06 -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
+      <class name="com.iitbombayX.TS02.TS02_TC03">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC03 -->
+      <class name="com.iitbombayX.TS04.TS04_TC03">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC03 -->
       <class name="com.iitbombayX.TS01.TS01_TC01">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.iitbombayX.TS01.TS01_TC01 -->
+      <class name="com.iitbombayX.TS02.TS02_TC05">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC05 -->
+      <class name="com.iitbombayX.TS05.TS05_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
+      <class name="com.iitbombayX.TS04.TS04_TC01">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC01 -->
+      <class name="com.iitbombayX.TS03.TS03_TC05">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC05 -->
+      <class name="com.iitbombayX.TS03.TS03_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC02 -->
+      <class name="com.iitbombayX.TS02.TS02_TC04">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC04 -->
+      <class name="com.iitbombayX.TS01.TS01_TC04">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
+      <class name="com.iitbombayX.TS02.TS02_TC01">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC01 -->
+      <class name="com.iitbombayX.TS03.TS03_TC06">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC06 -->
+      <class name="com.iitbombayX.TS04.TS04_TC05">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC05 -->
+    </classes>
+  </test> <!-- TS03(failed) -->
+  <test name="TS04(failed)">
+    <classes>
+      <class name="com.iitbombayX.TS04.TS04_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC02 -->
+      <class name="com.iitbombayX.TS03.TS03_TC01">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC01 -->
+      <class name="com.iitbombayX.TS01.TS01_TC03">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC03 -->
+      <class name="com.iitbombayX.TS02.TS02_TC02">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC02 -->
+      <class name="com.iitbombayX.TS05.TS05_TC01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS05.TS05_TC01 -->
+      <class name="com.iitbombayX.TS01.TS01_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
+      <class name="com.iitbombayX.TS02.TS02_TC03">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC03 -->
+      <class name="com.iitbombayX.TS04.TS04_TC03">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC03 -->
+      <class name="com.iitbombayX.TS01.TS01_TC01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC01 -->
+      <class name="com.iitbombayX.TS02.TS02_TC05">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC05 -->
+      <class name="com.iitbombayX.TS05.TS05_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
+      <class name="com.iitbombayX.TS04.TS04_TC01">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS04.TS04_TC01 -->
+      <class name="com.iitbombayX.TS03.TS03_TC05">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC05 -->
+      <class name="com.iitbombayX.TS03.TS03_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS03.TS03_TC02 -->
+      <class name="com.iitbombayX.TS02.TS02_TC04">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC04 -->
+      <class name="com.iitbombayX.TS01.TS01_TC04">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
+      <class name="com.iitbombayX.TS02.TS02_TC01">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS02.TS02_TC01 -->
       <class name="com.iitbombayX.TS04.TS04_TC05">
         <methods>
           <include name="afterMethod"/>
@@ -58,60 +231,12 @@
           <include name="testRegPage"/>
         </methods>
       </class> <!-- com.iitbombayX.TS04.TS04_TC05 -->
-      <class name="com.iitbombayX.TS04.TS04_TC02">
+      <class name="com.iitbombayX.TS03.TS03_TC06">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS04.TS04_TC02 -->
-      <class name="com.iitbombayX.TS02.TS02_TC01">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS02.TS02_TC01 -->
-      <class name="com.iitbombayX.TS03.TS03_TC02">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS03.TS03_TC02 -->
-      <class name="com.iitbombayX.TS03.TS03_TC05">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS03.TS03_TC05 -->
-      <class name="com.iitbombayX.TS02.TS02_TC04">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS02.TS02_TC04 -->
-      <class name="com.iitbombayX.TS01.TS01_TC02">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
-      <class name="com.iitbombayX.TS05.TS05_TC02">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
-      <class name="com.iitbombayX.TS01.TS01_TC04">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
-      <class name="com.iitbombayX.TS04.TS04_TC01">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.iitbombayX.TS04.TS04_TC01 -->
+      </class> <!-- com.iitbombayX.TS03.TS03_TC06 -->
     </classes>
   </test> <!-- TS04(failed) -->
 </suite> <!-- Failed suite [Automation Test Report Of IITBombayX] -->

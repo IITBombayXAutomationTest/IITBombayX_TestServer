@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                    <span class="method-stats">19 methods, 2 failed,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="show-methods failed suite-Automation_Test_Report_Of_IITBombayX"> (show)</a> <!-- show-methods failed suite-Automation_Test_Report_Of_IITBombayX -->
                     </span>
                     <div class="method-list-content failed suite-Automation_Test_Report_Of_IITBombayX">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS03.TS03_TC01" hash-for-method="testHeaderLink">testHeaderLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS04.TS04_TC05" hash-for-method="testRegPage">testRegPage</a> <!-- method navigator-link -->
@@ -213,6 +218,46 @@
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.iitbombayX.TS03.TS03_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHeaderLink">
+                  </a> <!-- testHeaderLink -->
+                  <span class="method-name">testHeaderLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Courses&quot;}
+Command duration or timeout: 31.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 739483c2-1848-4328-a1e2-4f0aab9edd88
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.iitbombayX.TS03.TS03_TC01.testHeaderLink(TS03_TC01.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Courses&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous7821296603102253005webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous7821296603102253005webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-failed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.iitbombayX.TS04.TS04_TC05</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -222,11 +267,11 @@
                   </a> <!-- testRegPage -->
                   <span class="method-name">testRegPage</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/header/nav/ol[2]/li[2]/a&quot;}
-Command duration or timeout: 10.08 seconds
+Command duration or timeout: 10.17 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
 System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9e5320c5-2564-4d6b-9ee9-9d2db24b8dad
+Session ID: b403c4f1-f4a4-46b3-b665-c6793d6b6421
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
@@ -242,8 +287,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
 System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
-	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous2642152457649746058webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous2642152457649746058webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -253,59 +298,14 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS02.TS02_TC02</span>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC02</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFAQFooter">
-                  </a> <!-- testFAQFooter -->
-                  <span class="method-name">testFAQFooter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
-          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS02.TS02_TC03</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="faqOf_FaqPage">
-                  </a> <!-- faqOf_FaqPage -->
-                  <span class="method-name">faqOf_FaqPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
-          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS02.TS02_TC05</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFAQLeftPanel">
-                  </a> <!-- testFAQLeftPanel -->
-                  <span class="method-name">testFAQLeftPanel</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
-          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS04.TS04_TC03</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="RegistrationPageContent">
-                  </a> <!-- RegistrationPageContent -->
-                  <span class="method-name">RegistrationPageContent</span>
+                  <a name="testHomeFooterNav">
+                  </a> <!-- testHomeFooterNav -->
+                  <span class="method-name">testHomeFooterNav</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -328,6 +328,21 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFAQFooter">
+                  </a> <!-- testFAQFooter -->
+                  <span class="method-name">testFAQFooter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.iitbombayX.TS05.TS05_TC01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -343,14 +358,44 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS03.TS03_TC06</span>
+              <span class="class-name">com.iitbombayX.TS01.TS01_TC02</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testResetPassword">
-                  </a> <!-- testResetPassword -->
-                  <span class="method-name">testResetPassword</span>
+                  <a name="testHomeFooterNav">
+                  </a> <!-- testHomeFooterNav -->
+                  <span class="method-name">testHomeFooterNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="faqOf_FaqPage">
+                  </a> <!-- faqOf_FaqPage -->
+                  <span class="method-name">faqOf_FaqPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationPageContent">
+                  </a> <!-- RegistrationPageContent -->
+                  <span class="method-name">RegistrationPageContent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -373,14 +418,14 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS04.TS04_TC02</span>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC05</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testHomeFooterNav">
-                  </a> <!-- testHomeFooterNav -->
-                  <span class="method-name">testHomeFooterNav</span>
+                  <a name="testFAQLeftPanel">
+                  </a> <!-- testFAQLeftPanel -->
+                  <span class="method-name">testFAQLeftPanel</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -388,14 +433,29 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS02.TS02_TC01</span>
+              <span class="class-name">com.iitbombayX.TS05.TS05_TC02</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testHomeToFaqHeadernavLink">
-                  </a> <!-- testHomeToFaqHeadernavLink -->
-                  <span class="method-name">testHomeToFaqHeadernavLink</span>
+                  <a name="find_course">
+                  </a> <!-- find_course -->
+                  <span class="method-name">find_course</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration_header_nav">
+                  </a> <!-- registration_header_nav -->
+                  <span class="method-name">registration_header_nav</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -448,36 +508,6 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS05.TS05_TC02</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="find_course">
-                  </a> <!-- find_course -->
-                  <span class="method-name">find_course</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
-          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS01.TS01_TC02</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testHomeFooterNav">
-                  </a> <!-- testHomeFooterNav -->
-                  <span class="method-name">testHomeFooterNav</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
-          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.iitbombayX.TS01.TS01_TC04</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -493,14 +523,29 @@ Driver info: driver.version: unknown
           <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.iitbombayX.TS04.TS04_TC01</span>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registration_header_nav">
-                  </a> <!-- registration_header_nav -->
-                  <span class="method-name">registration_header_nav</span>
+                  <a name="testHomeToFaqHeadernavLink">
+                  </a> <!-- testHomeToFaqHeadernavLink -->
+                  <span class="method-name">testHomeToFaqHeadernavLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS03.TS03_TC06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResetPassword">
+                  </a> <!-- testResetPassword -->
+                  <span class="method-name">testResetPassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -603,79 +648,83 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(19);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testResetPassword')
-data.setCell(0, 2, 'com.iitbombayX.TS03.TS03_TC06')
-data.setCell(0, 3, 19052);
+data.setCell(0, 1, 'testHeaderLink')
+data.setCell(0, 2, 'com.iitbombayX.TS03.TS03_TC01')
+data.setCell(0, 3, 34668);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testRegPage')
-data.setCell(1, 2, 'com.iitbombayX.TS04.TS04_TC05')
-data.setCell(1, 3, 13280);
+data.setCell(1, 1, 'testResetPassword')
+data.setCell(1, 2, 'com.iitbombayX.TS03.TS03_TC06')
+data.setCell(1, 3, 19456);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testHomePage')
 data.setCell(2, 2, 'com.iitbombayX.TS01.TS01_TC01')
-data.setCell(2, 3, 13043);
+data.setCell(2, 3, 14507);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testHomeToFaqHeadernavLink')
-data.setCell(3, 2, 'com.iitbombayX.TS02.TS02_TC01')
-data.setCell(3, 3, 12370);
+data.setCell(3, 1, 'testRegPage')
+data.setCell(3, 2, 'com.iitbombayX.TS04.TS04_TC05')
+data.setCell(3, 3, 13283);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'find_course')
-data.setCell(4, 2, 'com.iitbombayX.TS05.TS05_TC02')
-data.setCell(4, 3, 11261);
+data.setCell(4, 1, 'testHomeToFaqHeadernavLink')
+data.setCell(4, 2, 'com.iitbombayX.TS02.TS02_TC01')
+data.setCell(4, 3, 12676);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registration_header_nav')
-data.setCell(5, 2, 'com.iitbombayX.TS04.TS04_TC01')
-data.setCell(5, 3, 10683);
+data.setCell(5, 1, 'find_course')
+data.setCell(5, 2, 'com.iitbombayX.TS05.TS05_TC02')
+data.setCell(5, 3, 11225);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testHomeFooterNav')
-data.setCell(6, 2, 'com.iitbombayX.TS04.TS04_TC02')
-data.setCell(6, 3, 7193);
+data.setCell(6, 1, 'registration_header_nav')
+data.setCell(6, 2, 'com.iitbombayX.TS04.TS04_TC01')
+data.setCell(6, 3, 11117);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testFAQLeftPanel')
-data.setCell(7, 2, 'com.iitbombayX.TS02.TS02_TC05')
-data.setCell(7, 3, 6973);
+data.setCell(7, 1, 'testHomeFooterNav')
+data.setCell(7, 2, 'com.iitbombayX.TS01.TS01_TC02')
+data.setCell(7, 3, 7336);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testHomeFooterNav')
-data.setCell(8, 2, 'com.iitbombayX.TS01.TS01_TC02')
-data.setCell(8, 3, 6515);
+data.setCell(8, 2, 'com.iitbombayX.TS03.TS03_TC02')
+data.setCell(8, 3, 7298);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testHomeFooterNav')
-data.setCell(9, 2, 'com.iitbombayX.TS03.TS03_TC02')
-data.setCell(9, 3, 5893);
+data.setCell(9, 1, 'testFAQLeftPanel')
+data.setCell(9, 2, 'com.iitbombayX.TS02.TS02_TC05')
+data.setCell(9, 3, 6909);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testFAQFooter')
-data.setCell(10, 2, 'com.iitbombayX.TS02.TS02_TC02')
-data.setCell(10, 3, 4409);
+data.setCell(10, 1, 'testHomeFooterNav')
+data.setCell(10, 2, 'com.iitbombayX.TS04.TS04_TC02')
+data.setCell(10, 3, 6284);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testLoginPage')
-data.setCell(11, 2, 'com.iitbombayX.TS03.TS03_TC05')
-data.setCell(11, 3, 3950);
+data.setCell(11, 1, 'testFAQFooter')
+data.setCell(11, 2, 'com.iitbombayX.TS02.TS02_TC02')
+data.setCell(11, 3, 4505);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Login_page')
-data.setCell(12, 2, 'com.iitbombayX.TS05.TS05_TC01')
-data.setCell(12, 3, 3836);
+data.setCell(12, 1, 'testLoginPage')
+data.setCell(12, 2, 'com.iitbombayX.TS03.TS03_TC05')
+data.setCell(12, 3, 4123);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'text_onPage')
-data.setCell(13, 2, 'com.iitbombayX.TS01.TS01_TC03')
-data.setCell(13, 3, 1369);
+data.setCell(13, 1, 'Login_page')
+data.setCell(13, 2, 'com.iitbombayX.TS05.TS05_TC01')
+data.setCell(13, 3, 3738);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'FAQ_content_page')
-data.setCell(14, 2, 'com.iitbombayX.TS02.TS02_TC04')
-data.setCell(14, 3, 1121);
+data.setCell(14, 1, 'text_onPage')
+data.setCell(14, 2, 'com.iitbombayX.TS01.TS01_TC03')
+data.setCell(14, 3, 1426);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'RegistrationPageContent')
-data.setCell(15, 2, 'com.iitbombayX.TS04.TS04_TC03')
-data.setCell(15, 3, 1025);
+data.setCell(15, 1, 'FAQ_content_page')
+data.setCell(15, 2, 'com.iitbombayX.TS02.TS02_TC04')
+data.setCell(15, 3, 1147);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'check_content')
-data.setCell(16, 2, 'com.iitbombayX.TS01.TS01_TC04')
-data.setCell(16, 3, 496);
+data.setCell(16, 1, 'RegistrationPageContent')
+data.setCell(16, 2, 'com.iitbombayX.TS04.TS04_TC03')
+data.setCell(16, 3, 1048);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'faqOf_FaqPage')
-data.setCell(17, 2, 'com.iitbombayX.TS02.TS02_TC03')
-data.setCell(17, 3, 266);
+data.setCell(17, 1, 'check_content')
+data.setCell(17, 2, 'com.iitbombayX.TS01.TS01_TC04')
+data.setCell(17, 3, 449);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'faqOf_FaqPage')
+data.setCell(18, 2, 'com.iitbombayX.TS02.TS02_TC03')
+data.setCell(18, 3, 322);
 window.suiteTableData['Automation_Test_Report_Of_IITBombayX']= { tableData: data, tableDiv: 'times-div-Automation_Test_Report_Of_IITBombayX'}
 return data;
 }
@@ -713,268 +762,285 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomePage</span>
-                <span class="method-start">9247 ms</span>
+                <span class="method-start">10510 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">22291 ms</span>
+                <span class="method-start">25018 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">22562 ms</span>
+                <span class="method-start">25282 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomeFooterNav</span>
-                <span class="method-start">29945 ms</span>
+                <span class="method-start">31803 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">36463 ms</span>
+                <span class="method-start">39139 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC03</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">36664 ms</span>
+                <span class="method-start">39480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">text_onPage</span>
-                <span class="method-start">43677 ms</span>
+                <span class="method-start">46457 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">45047 ms</span>
+                <span class="method-start">47884 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC04</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">45221 ms</span>
+                <span class="method-start">48103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">check_content</span>
-                <span class="method-start">52524 ms</span>
+                <span class="method-start">54993 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">53021 ms</span>
+                <span class="method-start">55442 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC01</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">53228 ms</span>
+                <span class="method-start">55796 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomeToFaqHeadernavLink</span>
-                <span class="method-start">59801 ms</span>
+                <span class="method-start">62381 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">72171 ms</span>
+                <span class="method-start">75058 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">72417 ms</span>
+                <span class="method-start">75336 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFAQFooter</span>
-                <span class="method-start">79052 ms</span>
+                <span class="method-start">81352 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">83463 ms</span>
+                <span class="method-start">85857 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC03</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">83780 ms</span>
+                <span class="method-start">86270 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">faqOf_FaqPage</span>
-                <span class="method-start">89901 ms</span>
+                <span class="method-start">92779 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">90167 ms</span>
+                <span class="method-start">93101 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC04</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">90290 ms</span>
+                <span class="method-start">93258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FAQ_content_page</span>
-                <span class="method-start">96461 ms</span>
+                <span class="method-start">99112 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">97583 ms</span>
+                <span class="method-start">100259 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC05</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">97748 ms</span>
+                <span class="method-start">100428 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFAQLeftPanel</span>
-                <span class="method-start">104119 ms</span>
+                <span class="method-start">106489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">111093 ms</span>
+                <span class="method-start">113398 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">113670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testHeaderLink</span>
+                <span class="method-start">117842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">152523 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">111346 ms</span>
+                <span class="method-start">152714 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomeFooterNav</span>
-                <span class="method-start">117743 ms</span>
+                <span class="method-start">159253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">123636 ms</span>
+                <span class="method-start">166552 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC05</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">123852 ms</span>
+                <span class="method-start">166852 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPage</span>
-                <span class="method-start">130799 ms</span>
+                <span class="method-start">173506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">134750 ms</span>
+                <span class="method-start">177629 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC06</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">134923 ms</span>
+                <span class="method-start">177816 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testResetPassword</span>
-                <span class="method-start">141678 ms</span>
+                <span class="method-start">184179 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">160730 ms</span>
+                <span class="method-start">203635 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC01</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">160935 ms</span>
+                <span class="method-start">203826 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registration_header_nav</span>
-                <span class="method-start">167635 ms</span>
+                <span class="method-start">210255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">178318 ms</span>
+                <span class="method-start">221374 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">178595 ms</span>
+                <span class="method-start">221640 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomeFooterNav</span>
-                <span class="method-start">185105 ms</span>
+                <span class="method-start">227527 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">192298 ms</span>
+                <span class="method-start">233811 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC03</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">192564 ms</span>
+                <span class="method-start">234015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegistrationPageContent</span>
-                <span class="method-start">199353 ms</span>
+                <span class="method-start">240698 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">200379 ms</span>
+                <span class="method-start">241746 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC05</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">200527 ms</span>
+                <span class="method-start">241884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testRegPage</span>
-                <span class="method-start">207352 ms</span>
+                <span class="method-start">248156 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">220637 ms</span>
+                <span class="method-start">261442 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS05.TS05_TC01</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">220783 ms</span>
+                <span class="method-start">261628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login_page</span>
-                <span class="method-start">227441 ms</span>
+                <span class="method-start">268088 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">231277 ms</span>
+                <span class="method-start">271826 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.iitbombayX.TS05.TS05_TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">231482 ms</span>
+                <span class="method-start">272008 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">find_course</span>
-                <span class="method-start">238172 ms</span>
+                <span class="method-start">278630 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">249433 ms</span>
+                <span class="method-start">289855 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
