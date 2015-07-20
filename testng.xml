@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Automation Test Report Of IITBombayX">
+ 
+  <test name="TS01" >
+	<classes>
+		<class name="com.iitbombayX.TS01.TS01_TC01" />						
+		<class name="com.iitbombayX.TS01.TS01_TC02" />
+		<class name="com.iitbombayX.TS01.TS01_TC03" />
+		<class name="com.iitbombayX.TS01.TS01_TC04" />
+		
+			
+	</classes>
+  </test>
+  
+  <test name="TS02" >
+	<classes>
+		<class name="com.iitbombayX.TS02.TS02_TC01" />
+		<class name="com.iitbombayX.TS02.TS02_TC02" />
+		<class name="com.iitbombayX.TS02.TS02_TC03" />
+		<class name="com.iitbombayX.TS02.TS02_TC04" />
+		<class name="com.iitbombayX.TS02.TS02_TC05" />
+		
+			
+	</classes>
+  </test>
+ 
+ 
+ 	 <test name="TS03" >
+	<classes>
+		<class name="com.iitbombayX.TS03.TS03_TC01" />
+		<class name="com.iitbombayX.TS03.TS03_TC02" />
+		<class name="com.iitbombayX.TS03.TS03_TC05" />
+		<class name="com.iitbombayX.TS03.TS03_TC06" />
+			
+	</classes>
+  </test>
+  
+  <test name="TS04" >
+	<classes>
+		<class name="com.iitbombayX.TS04.TS04_TC01" />
+		<class name="com.iitbombayX.TS04.TS04_TC02" />
+		<class name="com.iitbombayX.TS04.TS04_TC03" />
+		<class name="com.iitbombayX.TS04.TS04_TC05" />
+			
+	</classes>
+  </test>
+  
+   <test name="TS05" >
+	<classes>
+		<class name="com.iitbombayX.TS05.TS05_TC01" />
+		<class name="com.iitbombayX.TS05.TS05_TC02" />
+		
+			
+	</classes>
+  </test>
+  
+</suite>

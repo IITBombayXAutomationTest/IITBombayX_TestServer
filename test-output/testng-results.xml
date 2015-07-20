@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="18" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Report Of IITBombayX" duration-ms="249646" started-at="2015-07-20T07:06:55Z" finished-at="2015-07-20T07:11:05Z">
+    <groups>
+    </groups>
+    <test name="TS01" duration-ms="53192" started-at="2015-07-20T07:06:55Z" finished-at="2015-07-20T07:07:48Z">
+      <class name="com.iitbombayX.TS01.TS01_TC01">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@6b54ef]" name="beforeMethod" is-config="true" duration-ms="9247" started-at="2015-07-20T12:36:55Z" finished-at="2015-07-20T12:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@6b54ef]" name="testHomePage" duration-ms="13043" started-at="2015-07-20T12:37:04Z" finished-at="2015-07-20T12:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@6b54ef]" name="afterMethod" is-config="true" duration-ms="270" started-at="2015-07-20T12:37:17Z" finished-at="2015-07-20T12:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC01 -->
+      <class name="com.iitbombayX.TS01.TS01_TC02">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@14feea]" name="beforeMethod" is-config="true" duration-ms="7383" started-at="2015-07-20T12:37:18Z" finished-at="2015-07-20T12:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@14feea]" name="testHomeFooterNav" duration-ms="6515" started-at="2015-07-20T12:37:25Z" finished-at="2015-07-20T12:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeFooterNav -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@14feea]" name="afterMethod" is-config="true" duration-ms="201" started-at="2015-07-20T12:37:32Z" finished-at="2015-07-20T12:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
+      <class name="com.iitbombayX.TS01.TS01_TC03">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@b9979b]" name="beforeMethod" is-config="true" duration-ms="7013" started-at="2015-07-20T12:37:32Z" finished-at="2015-07-20T12:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="text_onPage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@b9979b]" name="text_onPage" duration-ms="1369" started-at="2015-07-20T12:37:39Z" finished-at="2015-07-20T12:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- text_onPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@b9979b]" name="afterMethod" is-config="true" duration-ms="173" started-at="2015-07-20T12:37:40Z" finished-at="2015-07-20T12:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC03 -->
+      <class name="com.iitbombayX.TS01.TS01_TC04">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@1f068b9]" name="beforeMethod" is-config="true" duration-ms="7303" started-at="2015-07-20T12:37:40Z" finished-at="2015-07-20T12:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="check_content()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@1f068b9]" name="check_content" duration-ms="496" started-at="2015-07-20T12:37:48Z" finished-at="2015-07-20T12:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_content -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@1f068b9]" name="afterMethod" is-config="true" duration-ms="162" started-at="2015-07-20T12:37:48Z" finished-at="2015-07-20T12:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
+    </test> <!-- TS01 -->
+    <test name="TS02" duration-ms="58115" started-at="2015-07-20T07:07:48Z" finished-at="2015-07-20T07:08:46Z">
+      <class name="com.iitbombayX.TS02.TS02_TC02">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@af0e38]" name="beforeMethod" is-config="true" duration-ms="6635" started-at="2015-07-20T12:38:08Z" finished-at="2015-07-20T12:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFAQFooter()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@af0e38]" name="testFAQFooter" duration-ms="4409" started-at="2015-07-20T12:38:14Z" finished-at="2015-07-20T12:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFAQFooter -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@af0e38]" name="afterMethod" is-config="true" duration-ms="317" started-at="2015-07-20T12:38:19Z" finished-at="2015-07-20T12:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC02 -->
+      <class name="com.iitbombayX.TS02.TS02_TC01">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@de1cb6]" name="beforeMethod" is-config="true" duration-ms="6573" started-at="2015-07-20T12:37:48Z" finished-at="2015-07-20T12:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHomeToFaqHeadernavLink()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@de1cb6]" name="testHomeToFaqHeadernavLink" duration-ms="12370" started-at="2015-07-20T12:37:55Z" finished-at="2015-07-20T12:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeToFaqHeadernavLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@de1cb6]" name="afterMethod" is-config="true" duration-ms="246" started-at="2015-07-20T12:38:07Z" finished-at="2015-07-20T12:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC01 -->
+      <class name="com.iitbombayX.TS02.TS02_TC04">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@de4f4b]" name="beforeMethod" is-config="true" duration-ms="6171" started-at="2015-07-20T12:38:25Z" finished-at="2015-07-20T12:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FAQ_content_page()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@de4f4b]" name="FAQ_content_page" duration-ms="1121" started-at="2015-07-20T12:38:32Z" finished-at="2015-07-20T12:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FAQ_content_page -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@de4f4b]" name="afterMethod" is-config="true" duration-ms="165" started-at="2015-07-20T12:38:33Z" finished-at="2015-07-20T12:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC04 -->
+      <class name="com.iitbombayX.TS02.TS02_TC03">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@ce8e44]" name="beforeMethod" is-config="true" duration-ms="6121" started-at="2015-07-20T12:38:19Z" finished-at="2015-07-20T12:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="faqOf_FaqPage()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@ce8e44]" name="faqOf_FaqPage" duration-ms="266" started-at="2015-07-20T12:38:25Z" finished-at="2015-07-20T12:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faqOf_FaqPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@ce8e44]" name="afterMethod" is-config="true" duration-ms="122" started-at="2015-07-20T12:38:25Z" finished-at="2015-07-20T12:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC03 -->
+      <class name="com.iitbombayX.TS02.TS02_TC05">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@10dae16]" name="beforeMethod" is-config="true" duration-ms="6371" started-at="2015-07-20T12:38:33Z" finished-at="2015-07-20T12:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFAQLeftPanel()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@10dae16]" name="testFAQLeftPanel" duration-ms="6973" started-at="2015-07-20T12:38:39Z" finished-at="2015-07-20T12:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFAQLeftPanel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@10dae16]" name="afterMethod" is-config="true" duration-ms="249" started-at="2015-07-20T12:38:46Z" finished-at="2015-07-20T12:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS02.TS02_TC05 -->
+    </test> <!-- TS02 -->
+    <test name="TS03" duration-ms="49565" started-at="2015-07-20T07:08:46Z" finished-at="2015-07-20T07:09:36Z">
+      <class name="com.iitbombayX.TS03.TS03_TC05">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@9b7336]" name="beforeMethod" is-config="true" duration-ms="6947" started-at="2015-07-20T12:38:59Z" finished-at="2015-07-20T12:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@9b7336]" name="testLoginPage" duration-ms="3950" started-at="2015-07-20T12:39:06Z" finished-at="2015-07-20T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@9b7336]" name="afterMethod" is-config="true" duration-ms="173" started-at="2015-07-20T12:39:10Z" finished-at="2015-07-20T12:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS03.TS03_TC05 -->
+      <class name="com.iitbombayX.TS03.TS03_TC06">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@1a8f100]" name="beforeMethod" is-config="true" duration-ms="6755" started-at="2015-07-20T12:39:10Z" finished-at="2015-07-20T12:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testResetPassword()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@1a8f100]" name="testResetPassword" duration-ms="19052" started-at="2015-07-20T12:39:17Z" finished-at="2015-07-20T12:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@1a8f100]" name="afterMethod" is-config="true" duration-ms="181" started-at="2015-07-20T12:39:36Z" finished-at="2015-07-20T12:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS03.TS03_TC06 -->
+      <class name="com.iitbombayX.TS03.TS03_TC02">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@bf711e]" name="beforeMethod" is-config="true" duration-ms="6397" started-at="2015-07-20T12:38:46Z" finished-at="2015-07-20T12:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@bf711e]" name="testHomeFooterNav" duration-ms="5893" started-at="2015-07-20T12:38:53Z" finished-at="2015-07-20T12:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeFooterNav -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@bf711e]" name="afterMethod" is-config="true" duration-ms="215" started-at="2015-07-20T12:38:59Z" finished-at="2015-07-20T12:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS03.TS03_TC02 -->
+    </test> <!-- TS03 -->
+    <test name="TS04" duration-ms="59842" started-at="2015-07-20T07:09:36Z" finished-at="2015-07-20T07:10:36Z">
+      <class name="com.iitbombayX.TS04.TS04_TC05">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@262730]" name="beforeMethod" is-config="true" duration-ms="6825" started-at="2015-07-20T12:40:16Z" finished-at="2015-07-20T12:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testRegPage()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@262730]" name="testRegPage" duration-ms="13280" started-at="2015-07-20T12:40:22Z" finished-at="2015-07-20T12:40:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/header/nav/ol[2]/li[2]/a"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9e5320c5-2564-4d6b-9ee9-9d2db24b8dad
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/header/nav/ol[2]/li[2]/a"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9e5320c5-2564-4d6b-9ee9-9d2db24b8dad
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.iitbombayX.TS04.TS04_TC05.testRegPage(TS04_TC05.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/header/nav/ol[2]/li[2]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@262730]" name="afterMethod" is-config="true" duration-ms="140" started-at="2015-07-20T12:40:36Z" finished-at="2015-07-20T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS04.TS04_TC05 -->
+      <class name="com.iitbombayX.TS04.TS04_TC02">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@1c9982e]" name="beforeMethod" is-config="true" duration-ms="6510" started-at="2015-07-20T12:39:54Z" finished-at="2015-07-20T12:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@1c9982e]" name="testHomeFooterNav" duration-ms="7193" started-at="2015-07-20T12:40:00Z" finished-at="2015-07-20T12:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeFooterNav -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@1c9982e]" name="afterMethod" is-config="true" duration-ms="266" started-at="2015-07-20T12:40:07Z" finished-at="2015-07-20T12:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS04.TS04_TC02 -->
+      <class name="com.iitbombayX.TS04.TS04_TC01">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@694a18]" name="beforeMethod" is-config="true" duration-ms="6700" started-at="2015-07-20T12:39:36Z" finished-at="2015-07-20T12:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="registration_header_nav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@694a18]" name="registration_header_nav" duration-ms="10683" started-at="2015-07-20T12:39:43Z" finished-at="2015-07-20T12:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_header_nav -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@694a18]" name="afterMethod" is-config="true" duration-ms="276" started-at="2015-07-20T12:39:53Z" finished-at="2015-07-20T12:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS04.TS04_TC01 -->
+      <class name="com.iitbombayX.TS04.TS04_TC03">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@d6e551]" name="beforeMethod" is-config="true" duration-ms="6789" started-at="2015-07-20T12:40:08Z" finished-at="2015-07-20T12:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RegistrationPageContent()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@d6e551]" name="RegistrationPageContent" duration-ms="1025" started-at="2015-07-20T12:40:14Z" finished-at="2015-07-20T12:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageContent -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@d6e551]" name="afterMethod" is-config="true" duration-ms="147" started-at="2015-07-20T12:40:15Z" finished-at="2015-07-20T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS04.TS04_TC03 -->
+    </test> <!-- TS04 -->
+    <test name="TS05" duration-ms="28855" started-at="2015-07-20T07:10:36Z" finished-at="2015-07-20T07:11:05Z">
+      <class name="com.iitbombayX.TS05.TS05_TC01">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@93f61c]" name="beforeMethod" is-config="true" duration-ms="6658" started-at="2015-07-20T12:40:36Z" finished-at="2015-07-20T12:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_page()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@93f61c]" name="Login_page" duration-ms="3836" started-at="2015-07-20T12:40:43Z" finished-at="2015-07-20T12:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_page -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@93f61c]" name="afterMethod" is-config="true" duration-ms="204" started-at="2015-07-20T12:40:46Z" finished-at="2015-07-20T12:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS05.TS05_TC01 -->
+      <class name="com.iitbombayX.TS05.TS05_TC02">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1b71c12]" name="beforeMethod" is-config="true" duration-ms="6690" started-at="2015-07-20T12:40:47Z" finished-at="2015-07-20T12:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="find_course()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1b71c12]" name="find_course" duration-ms="11261" started-at="2015-07-20T12:40:53Z" finished-at="2015-07-20T12:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- find_course -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1b71c12]" name="afterMethod" is-config="true" duration-ms="204" started-at="2015-07-20T12:41:05Z" finished-at="2015-07-20T12:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
+    </test> <!-- TS05 -->
+  </suite> <!-- Automation Test Report Of IITBombayX -->
+</testng-results>

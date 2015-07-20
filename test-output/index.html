@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX">
+              <span class="suite-name border-failed">Automation Test Report Of IITBombayX</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Test_Report_Of_IITBombayX">
+                    <span>E:\selenium_workspace\IITBombayX_TestServer\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Test_Report_Of_IITBombayX">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Test_Report_Of_IITBombayX">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Test_Report_Of_IITBombayX">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Test_Report_Of_IITBombayX">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Test_Report_Of_IITBombayX">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Test_Report_Of_IITBombayX">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="hide-methods failed suite-Automation_Test_Report_Of_IITBombayX"> (hide)</a> <!-- hide-methods failed suite-Automation_Test_Report_Of_IITBombayX -->
+                      <a href="#" panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="show-methods failed suite-Automation_Test_Report_Of_IITBombayX"> (show)</a> <!-- show-methods failed suite-Automation_Test_Report_Of_IITBombayX -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Test_Report_Of_IITBombayX">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS04.TS04_TC05" hash-for-method="testRegPage">testRegPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Test_Report_Of_IITBombayX -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="hide-methods passed suite-Automation_Test_Report_Of_IITBombayX"> (hide)</a> <!-- hide-methods passed suite-Automation_Test_Report_Of_IITBombayX -->
+                      <a href="#" panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="show-methods passed suite-Automation_Test_Report_Of_IITBombayX"> (show)</a> <!-- show-methods passed suite-Automation_Test_Report_Of_IITBombayX -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Test_Report_Of_IITBombayX">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS02.TS02_TC04" hash-for-method="FAQ_content_page">FAQ_content_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS05.TS05_TC01" hash-for-method="Login_page">Login_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS04.TS04_TC03" hash-for-method="RegistrationPageContent">RegistrationPageContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS01.TS01_TC04" hash-for-method="check_content">check_content</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS02.TS02_TC03" hash-for-method="faqOf_FaqPage">faqOf_FaqPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS05.TS05_TC02" hash-for-method="find_course">find_course</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS04.TS04_TC01" hash-for-method="registration_header_nav">registration_header_nav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS02.TS02_TC02" hash-for-method="testFAQFooter">testFAQFooter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS02.TS02_TC05" hash-for-method="testFAQLeftPanel">testFAQLeftPanel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS01.TS01_TC02" hash-for-method="testHomeFooterNav">testHomeFooterNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS03.TS03_TC02" hash-for-method="testHomeFooterNav">testHomeFooterNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS04.TS04_TC02" hash-for-method="testHomeFooterNav">testHomeFooterNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS01.TS01_TC01" hash-for-method="testHomePage">testHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS02.TS02_TC01" hash-for-method="testHomeToFaqHeadernavLink">testHomeToFaqHeadernavLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS03.TS03_TC05" hash-for-method="testLoginPage">testLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS03.TS03_TC06" hash-for-method="testResetPassword">testResetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Report_Of_IITBombayX" title="com.iitbombayX.TS01.TS01_TC03" hash-for-method="text_onPage">text_onPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Test_Report_Of_IITBombayX -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Test_Report_Of_IITBombayX" class="panel Automation_Test_Report_Of_IITBombayX">
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegPage">
+                  </a> <!-- testRegPage -->
+                  <span class="method-name">testRegPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/header/nav/ol[2]/li[2]/a&quot;}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 9e5320c5-2564-4d6b-9ee9-9d2db24b8dad
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.iitbombayX.TS04.TS04_TC05.testRegPage(TS04_TC05.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/header/nav/ol[2]/li[2]/a&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;ada2-PC&apos;, ip: &apos;10.129.151.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/ada2/AppData/Local/Temp/anonymous454074219121056152webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-failed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFAQFooter">
+                  </a> <!-- testFAQFooter -->
+                  <span class="method-name">testFAQFooter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="faqOf_FaqPage">
+                  </a> <!-- faqOf_FaqPage -->
+                  <span class="method-name">faqOf_FaqPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFAQLeftPanel">
+                  </a> <!-- testFAQLeftPanel -->
+                  <span class="method-name">testFAQLeftPanel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationPageContent">
+                  </a> <!-- RegistrationPageContent -->
+                  <span class="method-name">RegistrationPageContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS01.TS01_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="text_onPage">
+                  </a> <!-- text_onPage -->
+                  <span class="method-name">text_onPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS05.TS05_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_page">
+                  </a> <!-- Login_page -->
+                  <span class="method-name">Login_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS03.TS03_TC06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResetPassword">
+                  </a> <!-- testResetPassword -->
+                  <span class="method-name">testResetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS01.TS01_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePage">
+                  </a> <!-- testHomePage -->
+                  <span class="method-name">testHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeFooterNav">
+                  </a> <!-- testHomeFooterNav -->
+                  <span class="method-name">testHomeFooterNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeToFaqHeadernavLink">
+                  </a> <!-- testHomeToFaqHeadernavLink -->
+                  <span class="method-name">testHomeToFaqHeadernavLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS03.TS03_TC05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPage">
+                  </a> <!-- testLoginPage -->
+                  <span class="method-name">testLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS03.TS03_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeFooterNav">
+                  </a> <!-- testHomeFooterNav -->
+                  <span class="method-name">testHomeFooterNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS02.TS02_TC04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FAQ_content_page">
+                  </a> <!-- FAQ_content_page -->
+                  <span class="method-name">FAQ_content_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS05.TS05_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="find_course">
+                  </a> <!-- find_course -->
+                  <span class="method-name">find_course</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS01.TS01_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeFooterNav">
+                  </a> <!-- testHomeFooterNav -->
+                  <span class="method-name">testHomeFooterNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS01.TS01_TC04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_content">
+                  </a> <!-- check_content -->
+                  <span class="method-name">check_content</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+          <div class="suite-Automation_Test_Report_Of_IITBombayX-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.iitbombayX.TS04.TS04_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration_header_nav">
+                  </a> <!-- registration_header_nav -->
+                  <span class="method-name">registration_header_nav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Report_Of_IITBombayX-class-passed -->
+        </div> <!-- panel Automation_Test_Report_Of_IITBombayX -->
+        <div panel-name="test-xml-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\selenium_workspace\IITBombayX_TestServer\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation Test Report Of IITBombayX&quot;&gt;
+  &lt;test name=&quot;TS01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iitbombayX.TS01.TS01_TC01&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS01.TS01_TC02&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS01.TS01_TC03&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS01.TS01_TC04&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS01 --&gt;
+  &lt;test name=&quot;TS02&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iitbombayX.TS02.TS02_TC01&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS02.TS02_TC02&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS02.TS02_TC03&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS02.TS02_TC04&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS02.TS02_TC05&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS02 --&gt;
+  &lt;test name=&quot;TS03&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iitbombayX.TS03.TS03_TC01&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS03.TS03_TC02&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS03.TS03_TC05&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS03.TS03_TC06&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS03 --&gt;
+  &lt;test name=&quot;TS04&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iitbombayX.TS04.TS04_TC01&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS04.TS04_TC02&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS04.TS04_TC03&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS04.TS04_TC05&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS04 --&gt;
+  &lt;test name=&quot;TS05&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iitbombayX.TS05.TS05_TC01&quot;/&gt;
+      &lt;class name=&quot;com.iitbombayX.TS05.TS05_TC02&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS05 --&gt;
+&lt;/suite&gt; &lt;!-- Automation Test Report Of IITBombayX --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Test Report Of IITBombayX</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TS01 (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TS02 (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TS03 (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TS04 (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TS05 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Test Report Of IITBombayX</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Test Report Of IITBombayX</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Test_Report_Of_IITBombayX');
+function tableData_Automation_Test_Report_Of_IITBombayX() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testResetPassword')
+data.setCell(0, 2, 'com.iitbombayX.TS03.TS03_TC06')
+data.setCell(0, 3, 19052);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegPage')
+data.setCell(1, 2, 'com.iitbombayX.TS04.TS04_TC05')
+data.setCell(1, 3, 13280);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testHomePage')
+data.setCell(2, 2, 'com.iitbombayX.TS01.TS01_TC01')
+data.setCell(2, 3, 13043);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testHomeToFaqHeadernavLink')
+data.setCell(3, 2, 'com.iitbombayX.TS02.TS02_TC01')
+data.setCell(3, 3, 12370);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'find_course')
+data.setCell(4, 2, 'com.iitbombayX.TS05.TS05_TC02')
+data.setCell(4, 3, 11261);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registration_header_nav')
+data.setCell(5, 2, 'com.iitbombayX.TS04.TS04_TC01')
+data.setCell(5, 3, 10683);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testHomeFooterNav')
+data.setCell(6, 2, 'com.iitbombayX.TS04.TS04_TC02')
+data.setCell(6, 3, 7193);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFAQLeftPanel')
+data.setCell(7, 2, 'com.iitbombayX.TS02.TS02_TC05')
+data.setCell(7, 3, 6973);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHomeFooterNav')
+data.setCell(8, 2, 'com.iitbombayX.TS01.TS01_TC02')
+data.setCell(8, 3, 6515);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testHomeFooterNav')
+data.setCell(9, 2, 'com.iitbombayX.TS03.TS03_TC02')
+data.setCell(9, 3, 5893);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFAQFooter')
+data.setCell(10, 2, 'com.iitbombayX.TS02.TS02_TC02')
+data.setCell(10, 3, 4409);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginPage')
+data.setCell(11, 2, 'com.iitbombayX.TS03.TS03_TC05')
+data.setCell(11, 3, 3950);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Login_page')
+data.setCell(12, 2, 'com.iitbombayX.TS05.TS05_TC01')
+data.setCell(12, 3, 3836);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'text_onPage')
+data.setCell(13, 2, 'com.iitbombayX.TS01.TS01_TC03')
+data.setCell(13, 3, 1369);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'FAQ_content_page')
+data.setCell(14, 2, 'com.iitbombayX.TS02.TS02_TC04')
+data.setCell(14, 3, 1121);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'RegistrationPageContent')
+data.setCell(15, 2, 'com.iitbombayX.TS04.TS04_TC03')
+data.setCell(15, 3, 1025);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'check_content')
+data.setCell(16, 2, 'com.iitbombayX.TS01.TS01_TC04')
+data.setCell(16, 3, 496);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'faqOf_FaqPage')
+data.setCell(17, 2, 'com.iitbombayX.TS02.TS02_TC03')
+data.setCell(17, 3, 266);
+window.suiteTableData['Automation_Test_Report_Of_IITBombayX']= { tableData: data, tableDiv: 'times-div-Automation_Test_Report_Of_IITBombayX'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Automation_Test_Report_Of_IITBombayX">
+              </div> <!-- times-div-Automation_Test_Report_Of_IITBombayX -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Test Report Of IITBombayX</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Test_Report_Of_IITBombayX" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomePage</span>
+                <span class="method-start">9247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">22291 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeFooterNav</span>
+                <span class="method-start">29945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36463 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">text_onPage</span>
+                <span class="method-start">43677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">45047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS01.TS01_TC04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">45221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">check_content</span>
+                <span class="method-start">52524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">53021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">53228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeToFaqHeadernavLink</span>
+                <span class="method-start">59801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">72171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">72417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFAQFooter</span>
+                <span class="method-start">79052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">83463 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">83780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">faqOf_FaqPage</span>
+                <span class="method-start">89901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">90167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">90290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FAQ_content_page</span>
+                <span class="method-start">96461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">97583 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS02.TS02_TC05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">97748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFAQLeftPanel</span>
+                <span class="method-start">104119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">111093 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">111346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeFooterNav</span>
+                <span class="method-start">117743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">123636 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">123852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">130799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">134750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS03.TS03_TC06</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">134923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResetPassword</span>
+                <span class="method-start">141678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">160730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">160935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration_header_nav</span>
+                <span class="method-start">167635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">178318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">178595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeFooterNav</span>
+                <span class="method-start">185105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">192298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">192564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationPageContent</span>
+                <span class="method-start">199353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">200379 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS04.TS04_TC05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">200527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRegPage</span>
+                <span class="method-start">207352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">220637 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS05.TS05_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">220783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_page</span>
+                <span class="method-start">227441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">231277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iitbombayX.TS05.TS05_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">231482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">find_course</span>
+                <span class="method-start">238172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">249433 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
