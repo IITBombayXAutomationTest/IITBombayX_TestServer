@@ -55,4 +55,12 @@
 	</classes>
   </test>
   
+  <test name="TS06" >
+	<classes>
+		<class name="com.iitbombayX.TS06.TS06_TC01" />
+		
+		
+			
+	</classes>
+  </test>
 </suite>

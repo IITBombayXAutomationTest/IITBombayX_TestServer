@@ -1,15 +1,18 @@
 package com.iitbombayX.TS05;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.iitbombayX.TS04.*;
+import com.utility.Constant;
 
 
 public class TS05_TC01 {
@@ -54,15 +57,25 @@ public class TS05_TC01 {
 	      
 	      //Launch the Online Store Website
 
-	      driver.get("http://10.129.50.4");
+	      driver.get(Constant.URL);
 	     // ExcelUtils.setExcelFile(contant.Path_TestData + contant.File_TestData,"Sheet1");
 	     
 
 	  }
 
-	  @AfterMethod
-	  public void afterMethod() throws Exception {
-		  
-		  driver.quit();
+	@AfterMethod
+	  public void takeScreenShotOnFailure(ITestResult testResult) throws IOException { 
+
+	      String className = this.getClass().getSimpleName();
+	      String packageName = this.getClass().getName();
+	      String filename = this.getClass().getName().toString();
+
+
+	      if (testResult.getStatus() == ITestResult.FAILURE) {
+
+	          Constant.takeScreenShotOnFailure(testResult,packageName,className,filename,driver);
+	      }
+	      driver.quit();
+	  }
 }
-}
+

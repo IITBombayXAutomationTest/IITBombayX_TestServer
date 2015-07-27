@@ -1,5 +1,7 @@
 package com.iitbombayX.TS03;
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -10,11 +12,18 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import com.utility.Constant;
+
 import org.testng.annotations.BeforeMethod;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 
 
@@ -61,13 +70,22 @@ public class TS03_TC05 {
 
       //Launch the Online Store Website
 
-      driver.get("http://10.129.50.4/");
+      driver.get(Constant.URL);
 
   }
 
-  @AfterMethod
-  public void afterMethod() {
-	  
-	  driver.quit();
-  }
+@AfterMethod
+public void takeScreenShotOnFailure(ITestResult testResult) throws IOException { 
+
+    String className = this.getClass().getSimpleName();
+    String packageName = this.getClass().getName();
+    String filename = this.getClass().getName().toString();
+
+
+    if (testResult.getStatus() == ITestResult.FAILURE) {
+
+        Constant.takeScreenShotOnFailure(testResult,packageName,className,filename,driver);
+    }
+    driver.quit();
+}
 }

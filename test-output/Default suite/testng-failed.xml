@@ -3,13 +3,31 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.iitbombayX.TS05.TS05_TC02">
+      <class name="com.iitbombayX.TS01.TS01_TC04">
         <methods>
-          <include name="find_course"/>
           <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="takeScreenShotOnFailure"/>
         </methods>
-      </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
+      </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
+      <class name="com.iitbombayX.TS01.TS01_TC01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC01 -->
+      <class name="com.iitbombayX.TS01.TS01_TC02">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testHomeFooterNav"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
+      <class name="com.iitbombayX.TS01.TS01_TC03">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.iitbombayX.TS01.TS01_TC03 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

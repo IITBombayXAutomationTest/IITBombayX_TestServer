@@ -1,22 +1,33 @@
 package com.iitbombayX.TS02;
 
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.utility.Constant;
 
 public class TS02_TC02 {
 
@@ -58,46 +69,22 @@ public class TS02_TC02 {
 
 	      //Launch the Online Store Website
 
-	      driver.get("http://10.129.50.4/faq");
+	      driver.get(Constant.URL +"faq");
 
 	  }
 
-	  @AfterMethod
-	  public void afterMethod() {
-		  
-		  driver.quit();
+	 @AfterMethod
+	  public void takeScreenShotOnFailure(ITestResult testResult) throws IOException { 
+
+	      String className = this.getClass().getSimpleName();
+	      String packageName = this.getClass().getName();
+	      String filename = this.getClass().getName().toString();
+
+
+	      if (testResult.getStatus() == ITestResult.FAILURE) {
+
+	          Constant.takeScreenShotOnFailure(testResult,packageName,className,filename,driver);
+	      }
+	      driver.quit();
 	  }
-	
-	 private boolean isElementPresent(By by) {
-		    try {
-		      driver.findElement(by);
-		      return true;
-		    } catch (NoSuchElementException e) {
-		      return false;
-		    }
-		  }
-
-		  private boolean isAlertPresent() {
-		    try {
-		      driver.switchTo().alert();
-		      return true;
-		    } catch (NoAlertPresentException e) {
-		      return false;
-		    }
-		  }
-
-		  private String closeAlertAndGetItsText() {
-		    try {
-		      Alert alert = driver.switchTo().alert();
-		      String alertText = alert.getText();
-		      if (acceptNextAlert) {
-		        alert.accept();
-		      } else {
-		        alert.dismiss();
-		      }
-		      return alertText;
-		    } finally {
-		      acceptNextAlert = true;
-		    }
-		  }
 }

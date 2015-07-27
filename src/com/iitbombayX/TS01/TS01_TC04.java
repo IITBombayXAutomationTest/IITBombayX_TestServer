@@ -1,19 +1,31 @@
 package com.iitbombayX.TS01;
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.utility.Constant;
+
 import org.openqa.selenium.WebElement;
 
 
@@ -24,9 +36,10 @@ public class TS01_TC04 {
 	
 	
 	@Test
-	public void check_content()
+	public void check_content() throws Exception
 	{
-		// footer navigation content font size check
+		
+			// footer navigation content font size check
 		
 		byId= driver.findElement(By.id("about"));
 		byId1= driver.findElement(By.id("news"));
@@ -50,9 +63,10 @@ public class TS01_TC04 {
 		header_nav_content();
 		//String fontSize11 = byId10.getCssValue("font-size");
 		
+		}
 				
-	}
-	public void footer_nav_content()
+	
+	public void footer_nav_content() throws Exception
 	{
 		String fontSize= byId.getCssValue("font-size");
 		String fontSize1= byId1.getCssValue("font-size");
@@ -107,10 +121,14 @@ public class TS01_TC04 {
 		}
 		
 	System.out.println("PASS FOOTER");
-	}
 	
-	public void header_nav_content()
+	}
+
+	
+	public void header_nav_content() throws Exception
 	{
+		
+			
 		String fontSize5= byId5.getCssValue("font-size");
 		String fontSize6= byId6.getCssValue("font-size");
 		String fontSize7= byId7.getCssValue("font-size");
@@ -162,11 +180,10 @@ public class TS01_TC04 {
 		Assert.fail("Login Font sized not matched");
 		}
 	System.out.println("PASS HEADER");
+	
+	
 	}
 	
-	
-
-
 	
 	
 	@BeforeMethod
@@ -182,13 +199,22 @@ public class TS01_TC04 {
 
 	      //Launch the Online Store Website
 
-	      driver.get("http://10.129.50.4/");
+	      driver.get(Constant.URL);
 
 	  }
 
-	  @AfterMethod
-	  public void afterMethod() {
-		  
-		  driver.quit();
+	@AfterMethod
+	  public void takeScreenShotOnFailure(ITestResult testResult) throws IOException { 
+
+	      String className = this.getClass().getSimpleName();
+	      String packageName = this.getClass().getName();
+	      String filename = this.getClass().getName().toString();
+
+
+	      if (testResult.getStatus() == ITestResult.FAILURE) {
+
+	          Constant.takeScreenShotOnFailure(testResult,packageName,className,filename,driver);
+	      }
+	      driver.quit();
 	  }
 }

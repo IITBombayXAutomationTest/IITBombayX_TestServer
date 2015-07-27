@@ -2,222 +2,313 @@
 <testng-results skipped="0" failed="1" total="19" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test Report Of IITBombayX" duration-ms="276732" started-at="2015-07-20T10:37:44Z" finished-at="2015-07-20T10:42:21Z">
+  <suite name="Automation Test Report Of IITBombayX" duration-ms="275680" started-at="2015-07-27T11:42:41Z" finished-at="2015-07-27T11:47:16Z">
     <groups>
     </groups>
-    <test name="TS01" duration-ms="51934" started-at="2015-07-20T10:37:44Z" finished-at="2015-07-20T10:38:36Z">
+    <test name="TS01" duration-ms="53745" started-at="2015-07-27T11:42:41Z" finished-at="2015-07-27T11:43:35Z">
       <class name="com.iitbombayX.TS01.TS01_TC01">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@10eb2f0]" name="beforeMethod" is-config="true" duration-ms="7384" started-at="2015-07-20T16:07:44Z" finished-at="2015-07-20T16:07:51Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@19e0994]" name="beforeMethod" is-config="true" duration-ms="9202" started-at="2015-07-27T17:12:41Z" finished-at="2015-07-27T17:12:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@10eb2f0]" name="testHomePage" duration-ms="11239" started-at="2015-07-20T16:07:51Z" finished-at="2015-07-20T16:08:03Z">
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@19e0994]" name="testHomePage" duration-ms="12236" started-at="2015-07-27T17:12:50Z" finished-at="2015-07-27T17:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@10eb2f0]" name="afterMethod" is-config="true" duration-ms="181" started-at="2015-07-20T16:08:03Z" finished-at="2015-07-20T16:08:03Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@19e0994]" name="takeScreenShotOnFailure" is-config="true" duration-ms="252" started-at="2015-07-27T17:13:02Z" finished-at="2015-07-27T17:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=TS01_TC01.testHomePage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC01@19e0994] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS01.TS01_TC01 -->
       <class name="com.iitbombayX.TS01.TS01_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@4eda4a]" name="beforeMethod" is-config="true" duration-ms="6766" started-at="2015-07-20T16:08:03Z" finished-at="2015-07-20T16:08:10Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@6bfd73]" name="beforeMethod" is-config="true" duration-ms="7438" started-at="2015-07-27T17:13:03Z" finished-at="2015-07-27T17:13:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@4eda4a]" name="testHomeFooterNav" duration-ms="10792" started-at="2015-07-20T16:08:10Z" finished-at="2015-07-20T16:08:20Z">
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@6bfd73]" name="testHomeFooterNav" duration-ms="7320" started-at="2015-07-27T17:13:10Z" finished-at="2015-07-27T17:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeFooterNav -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@4eda4a]" name="afterMethod" is-config="true" duration-ms="309" started-at="2015-07-20T16:08:20Z" finished-at="2015-07-20T16:08:21Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@6bfd73]" name="takeScreenShotOnFailure" is-config="true" duration-ms="343" started-at="2015-07-27T17:13:17Z" finished-at="2015-07-27T17:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeFooterNav status=SUCCESS method=TS01_TC02.testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS01.TS01_TC02@6bfd73] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS01.TS01_TC02 -->
       <class name="com.iitbombayX.TS01.TS01_TC03">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@86f847]" name="beforeMethod" is-config="true" duration-ms="6678" started-at="2015-07-20T16:08:21Z" finished-at="2015-07-20T16:08:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@d3e83f]" name="beforeMethod" is-config="true" duration-ms="7366" started-at="2015-07-27T17:13:18Z" finished-at="2015-07-27T17:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="text_onPage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@86f847]" name="text_onPage" duration-ms="1420" started-at="2015-07-20T16:08:27Z" finished-at="2015-07-20T16:08:29Z">
+        <test-method status="PASS" signature="text_onPage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@d3e83f]" name="text_onPage" duration-ms="1364" started-at="2015-07-27T17:13:25Z" finished-at="2015-07-27T17:13:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- text_onPage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@86f847]" name="afterMethod" is-config="true" duration-ms="235" started-at="2015-07-20T16:08:29Z" finished-at="2015-07-20T16:08:29Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@d3e83f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="230" started-at="2015-07-27T17:13:26Z" finished-at="2015-07-27T17:13:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=text_onPage status=SUCCESS method=TS01_TC03.text_onPage()[pri:0, instance:com.iitbombayX.TS01.TS01_TC03@d3e83f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS01.TS01_TC03 -->
       <class name="com.iitbombayX.TS01.TS01_TC04">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@dd6ae7]" name="beforeMethod" is-config="true" duration-ms="6314" started-at="2015-07-20T16:08:29Z" finished-at="2015-07-20T16:08:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@86f847]" name="beforeMethod" is-config="true" duration-ms="7374" started-at="2015-07-27T17:13:27Z" finished-at="2015-07-27T17:13:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="check_content()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@dd6ae7]" name="check_content" duration-ms="445" started-at="2015-07-20T16:08:35Z" finished-at="2015-07-20T16:08:36Z">
+        <test-method status="PASS" signature="check_content()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@86f847]" name="check_content" duration-ms="427" started-at="2015-07-27T17:13:34Z" finished-at="2015-07-27T17:13:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_content -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@dd6ae7]" name="afterMethod" is-config="true" duration-ms="158" started-at="2015-07-20T16:08:36Z" finished-at="2015-07-20T16:08:36Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@86f847]" name="takeScreenShotOnFailure" is-config="true" duration-ms="179" started-at="2015-07-27T17:13:34Z" finished-at="2015-07-27T17:13:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_content status=SUCCESS method=TS01_TC04.check_content()[pri:0, instance:com.iitbombayX.TS01.TS01_TC04@86f847] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS01.TS01_TC04 -->
     </test> <!-- TS01 -->
-    <test name="TS02" duration-ms="63130" started-at="2015-07-20T10:38:36Z" finished-at="2015-07-20T10:39:39Z">
+    <test name="TS02" duration-ms="62009" started-at="2015-07-27T11:43:35Z" finished-at="2015-07-27T11:44:37Z">
       <class name="com.iitbombayX.TS02.TS02_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@812517]" name="beforeMethod" is-config="true" duration-ms="7421" started-at="2015-07-20T16:08:55Z" finished-at="2015-07-20T16:09:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@2709da]" name="beforeMethod" is-config="true" duration-ms="7355" started-at="2015-07-27T17:13:55Z" finished-at="2015-07-27T17:14:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFAQFooter()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@812517]" name="testFAQFooter" duration-ms="8203" started-at="2015-07-20T16:09:02Z" finished-at="2015-07-20T16:09:11Z">
+        <test-method status="PASS" signature="testFAQFooter()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@2709da]" name="testFAQFooter" duration-ms="4624" started-at="2015-07-27T17:14:02Z" finished-at="2015-07-27T17:14:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFAQFooter -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@812517]" name="afterMethod" is-config="true" duration-ms="481" started-at="2015-07-20T16:09:11Z" finished-at="2015-07-20T16:09:11Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@2709da]" name="takeScreenShotOnFailure" is-config="true" duration-ms="394" started-at="2015-07-27T17:14:07Z" finished-at="2015-07-27T17:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFAQFooter status=SUCCESS method=TS02_TC02.testFAQFooter()[pri:0, instance:com.iitbombayX.TS02.TS02_TC02@2709da] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS02.TS02_TC02 -->
       <class name="com.iitbombayX.TS02.TS02_TC01">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@f42d53]" name="beforeMethod" is-config="true" duration-ms="6232" started-at="2015-07-20T16:08:36Z" finished-at="2015-07-20T16:08:42Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@1881149]" name="beforeMethod" is-config="true" duration-ms="7001" started-at="2015-07-27T17:13:35Z" finished-at="2015-07-27T17:13:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testHomeToFaqHeadernavLink()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@f42d53]" name="testHomeToFaqHeadernavLink" duration-ms="12569" started-at="2015-07-20T16:08:42Z" finished-at="2015-07-20T16:08:55Z">
+        <test-method status="PASS" signature="testHomeToFaqHeadernavLink()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@1881149]" name="testHomeToFaqHeadernavLink" duration-ms="12747" started-at="2015-07-27T17:13:42Z" finished-at="2015-07-27T17:13:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeToFaqHeadernavLink -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@f42d53]" name="afterMethod" is-config="true" duration-ms="308" started-at="2015-07-20T16:08:55Z" finished-at="2015-07-20T16:08:55Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@1881149]" name="takeScreenShotOnFailure" is-config="true" duration-ms="266" started-at="2015-07-27T17:13:54Z" finished-at="2015-07-27T17:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeToFaqHeadernavLink status=SUCCESS method=TS02_TC01.testHomeToFaqHeadernavLink()[pri:0, instance:com.iitbombayX.TS02.TS02_TC01@1881149] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS02.TS02_TC01 -->
       <class name="com.iitbombayX.TS02.TS02_TC04">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@aa3e9a]" name="beforeMethod" is-config="true" duration-ms="5943" started-at="2015-07-20T16:09:18Z" finished-at="2015-07-20T16:09:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@f7d5a6]" name="beforeMethod" is-config="true" duration-ms="6846" started-at="2015-07-27T17:14:14Z" finished-at="2015-07-27T17:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="FAQ_content_page()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@aa3e9a]" name="FAQ_content_page" duration-ms="1170" started-at="2015-07-20T16:09:24Z" finished-at="2015-07-20T16:09:25Z">
+        <test-method status="PASS" signature="FAQ_content_page()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@f7d5a6]" name="FAQ_content_page" duration-ms="1183" started-at="2015-07-27T17:14:21Z" finished-at="2015-07-27T17:14:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQ_content_page -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@aa3e9a]" name="afterMethod" is-config="true" duration-ms="171" started-at="2015-07-20T16:09:25Z" finished-at="2015-07-20T16:09:26Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@f7d5a6]" name="takeScreenShotOnFailure" is-config="true" duration-ms="181" started-at="2015-07-27T17:14:22Z" finished-at="2015-07-27T17:14:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FAQ_content_page status=SUCCESS method=TS02_TC04.FAQ_content_page()[pri:0, instance:com.iitbombayX.TS02.TS02_TC04@f7d5a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS02.TS02_TC04 -->
       <class name="com.iitbombayX.TS02.TS02_TC03">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@cbb612]" name="beforeMethod" is-config="true" duration-ms="6663" started-at="2015-07-20T16:09:11Z" finished-at="2015-07-20T16:09:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@1d17f01]" name="beforeMethod" is-config="true" duration-ms="6874" started-at="2015-07-27T17:14:07Z" finished-at="2015-07-27T17:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="faqOf_FaqPage()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@cbb612]" name="faqOf_FaqPage" duration-ms="336" started-at="2015-07-20T16:09:18Z" finished-at="2015-07-20T16:09:18Z">
+        <test-method status="PASS" signature="faqOf_FaqPage()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@1d17f01]" name="faqOf_FaqPage" duration-ms="337" started-at="2015-07-27T17:14:14Z" finished-at="2015-07-27T17:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faqOf_FaqPage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@cbb612]" name="afterMethod" is-config="true" duration-ms="149" started-at="2015-07-20T16:09:18Z" finished-at="2015-07-20T16:09:18Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@1d17f01]" name="takeScreenShotOnFailure" is-config="true" duration-ms="206" started-at="2015-07-27T17:14:14Z" finished-at="2015-07-27T17:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=faqOf_FaqPage status=SUCCESS method=TS02_TC03.faqOf_FaqPage()[pri:0, instance:com.iitbombayX.TS02.TS02_TC03@1d17f01] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS02.TS02_TC03 -->
       <class name="com.iitbombayX.TS02.TS02_TC05">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@2c79a5]" name="beforeMethod" is-config="true" duration-ms="6187" started-at="2015-07-20T16:09:26Z" finished-at="2015-07-20T16:09:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@41e2aa]" name="beforeMethod" is-config="true" duration-ms="6589" started-at="2015-07-27T17:14:23Z" finished-at="2015-07-27T17:14:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFAQLeftPanel()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@2c79a5]" name="testFAQLeftPanel" duration-ms="6998" started-at="2015-07-20T16:09:32Z" finished-at="2015-07-20T16:09:39Z">
+        <test-method status="PASS" signature="testFAQLeftPanel()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@41e2aa]" name="testFAQLeftPanel" duration-ms="7124" started-at="2015-07-27T17:14:29Z" finished-at="2015-07-27T17:14:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFAQLeftPanel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@2c79a5]" name="afterMethod" is-config="true" duration-ms="297" started-at="2015-07-20T16:09:39Z" finished-at="2015-07-20T16:09:39Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@41e2aa]" name="takeScreenShotOnFailure" is-config="true" duration-ms="278" started-at="2015-07-27T17:14:36Z" finished-at="2015-07-27T17:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFAQLeftPanel status=SUCCESS method=TS02_TC05.testFAQLeftPanel()[pri:0, instance:com.iitbombayX.TS02.TS02_TC05@41e2aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS02.TS02_TC05 -->
     </test> <!-- TS02 -->
-    <test name="TS03" duration-ms="69282" started-at="2015-07-20T10:39:39Z" finished-at="2015-07-20T10:40:48Z">
+    <test name="TS03" duration-ms="66600" started-at="2015-07-27T11:44:37Z" finished-at="2015-07-27T11:45:43Z">
       <class name="com.iitbombayX.TS03.TS03_TC05">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@1b51db7]" name="beforeMethod" is-config="true" duration-ms="6771" started-at="2015-07-20T16:10:12Z" finished-at="2015-07-20T16:10:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@10bb83e]" name="beforeMethod" is-config="true" duration-ms="7653" started-at="2015-07-27T17:15:09Z" finished-at="2015-07-27T17:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@1b51db7]" name="testLoginPage" duration-ms="3827" started-at="2015-07-20T16:10:19Z" finished-at="2015-07-20T16:10:22Z">
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@10bb83e]" name="testLoginPage" duration-ms="3958" started-at="2015-07-27T17:15:17Z" finished-at="2015-07-27T17:15:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@1b51db7]" name="afterMethod" is-config="true" duration-ms="249" started-at="2015-07-20T16:10:22Z" finished-at="2015-07-20T16:10:23Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@10bb83e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="196" started-at="2015-07-27T17:15:21Z" finished-at="2015-07-27T17:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPage status=SUCCESS method=TS03_TC05.testLoginPage()[pri:0, instance:com.iitbombayX.TS03.TS03_TC05@10bb83e] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS03.TS03_TC05 -->
       <class name="com.iitbombayX.TS03.TS03_TC06">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@d7cf62]" name="beforeMethod" is-config="true" duration-ms="6495" started-at="2015-07-20T16:10:23Z" finished-at="2015-07-20T16:10:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@6d234c]" name="beforeMethod" is-config="true" duration-ms="7060" started-at="2015-07-27T17:15:21Z" finished-at="2015-07-27T17:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testResetPassword()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@d7cf62]" name="testResetPassword" duration-ms="18964" started-at="2015-07-20T16:10:29Z" finished-at="2015-07-20T16:10:48Z">
+        <test-method status="PASS" signature="testResetPassword()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@6d234c]" name="testResetPassword" duration-ms="14548" started-at="2015-07-27T17:15:28Z" finished-at="2015-07-27T17:15:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResetPassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@d7cf62]" name="afterMethod" is-config="true" duration-ms="193" started-at="2015-07-20T16:10:48Z" finished-at="2015-07-20T16:10:48Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@6d234c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="297" started-at="2015-07-27T17:15:43Z" finished-at="2015-07-27T17:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResetPassword status=SUCCESS method=TS03_TC06.testResetPassword()[pri:0, instance:com.iitbombayX.TS03.TS03_TC06@6d234c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS03.TS03_TC06 -->
       <class name="com.iitbombayX.TS03.TS03_TC01">
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@8f5fc2]" name="beforemethod" is-config="true" duration-ms="4255" started-at="2015-07-20T16:09:39Z" finished-at="2015-07-20T16:09:43Z">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@d55a0f]" name="beforemethod" is-config="true" duration-ms="7109" started-at="2015-07-27T17:14:37Z" finished-at="2015-07-27T17:14:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="testHeaderLink()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@8f5fc2]" name="testHeaderLink" duration-ms="15069" started-at="2015-07-20T16:09:43Z" finished-at="2015-07-20T16:09:58Z">
+        <test-method status="PASS" signature="testHeaderLink()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@d55a0f]" name="testHeaderLink" duration-ms="12123" started-at="2015-07-27T17:14:44Z" finished-at="2015-07-27T17:14:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHeaderLink -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@8f5fc2]" name="aftermethod" is-config="true" duration-ms="222" started-at="2015-07-20T16:09:58Z" finished-at="2015-07-20T16:09:59Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@d55a0f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="212" started-at="2015-07-27T17:14:56Z" finished-at="2015-07-27T17:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHeaderLink status=SUCCESS method=TS03_TC01.testHeaderLink()[pri:0, instance:com.iitbombayX.TS03.TS03_TC01@d55a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftermethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS03.TS03_TC01 -->
       <class name="com.iitbombayX.TS03.TS03_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@7040e7]" name="beforeMethod" is-config="true" duration-ms="5616" started-at="2015-07-20T16:09:59Z" finished-at="2015-07-20T16:10:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@1286c71]" name="beforeMethod" is-config="true" duration-ms="6719" started-at="2015-07-27T17:14:56Z" finished-at="2015-07-27T17:15:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@7040e7]" name="testHomeFooterNav" duration-ms="7396" started-at="2015-07-20T16:10:04Z" finished-at="2015-07-20T16:10:12Z">
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@1286c71]" name="testHomeFooterNav" duration-ms="6395" started-at="2015-07-27T17:15:03Z" finished-at="2015-07-27T17:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeFooterNav -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@7040e7]" name="afterMethod" is-config="true" duration-ms="220" started-at="2015-07-20T16:10:12Z" finished-at="2015-07-20T16:10:12Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@1286c71]" name="takeScreenShotOnFailure" is-config="true" duration-ms="324" started-at="2015-07-27T17:15:09Z" finished-at="2015-07-27T17:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeFooterNav status=SUCCESS method=TS03_TC02.testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS03.TS03_TC02@1286c71] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS03.TS03_TC02 -->
     </test> <!-- TS03 -->
-    <test name="TS04" duration-ms="62558" started-at="2015-07-20T10:40:48Z" finished-at="2015-07-20T10:41:51Z">
+    <test name="TS04" duration-ms="62906" started-at="2015-07-27T11:45:43Z" finished-at="2015-07-27T11:46:46Z">
       <class name="com.iitbombayX.TS04.TS04_TC05">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@19438de]" name="beforeMethod" is-config="true" duration-ms="6689" started-at="2015-07-20T16:11:31Z" finished-at="2015-07-20T16:11:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@110c2e8]" name="beforeMethod" is-config="true" duration-ms="7198" started-at="2015-07-27T17:16:25Z" finished-at="2015-07-27T17:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testRegPage()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@19438de]" name="testRegPage" duration-ms="13471" started-at="2015-07-20T16:11:37Z" finished-at="2015-07-20T16:11:51Z">
+        <test-method status="FAIL" signature="testRegPage()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@110c2e8]" name="testRegPage" duration-ms="13554" started-at="2015-07-27T17:16:32Z" finished-at="2015-07-27T17:16:45Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/header/nav/ol[2]/li[2]/a"}
-Command duration or timeout: 10.19 seconds
+Command duration or timeout: 10.17 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
 System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
-Session ID: a3a3f2a0-05ad-4f32-9f8e-e71a2c1b54b1
+Session ID: e0de0344-98dc-48dc-bbee-58b842d718d5
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/header/nav/ol[2]/li[2]/a"}
-Command duration or timeout: 10.19 seconds
+Command duration or timeout: 10.17 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
 System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
-Session ID: a3a3f2a0-05ad-4f32-9f8e-e71a2c1b54b1
+Session ID: e0de0344-98dc-48dc-bbee-58b842d718d5
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=13.0.1}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -231,7 +322,7 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.iitbombayX.TS04.TS04_TC05.testRegPage(TS04_TC05.java:54)
+	at com.iitbombayX.TS04.TS04_TC05.testRegPage(TS04_TC05.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -261,91 +352,135 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
 System info: host: 'ada2-PC', ip: '10.129.151.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
 Driver info: driver.version: unknown
-	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous6187753848549174899webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
-	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous6187753848549174899webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous7424975223286935138webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ada2/AppData/Local/Temp/anonymous7424975223286935138webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegPage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@19438de]" name="afterMethod" is-config="true" duration-ms="193" started-at="2015-07-20T16:11:51Z" finished-at="2015-07-20T16:11:51Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@110c2e8]" name="takeScreenShotOnFailure" is-config="true" duration-ms="636" started-at="2015-07-27T17:16:45Z" finished-at="2015-07-27T17:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegPage status=FAILURE method=TS04_TC05.testRegPage()[pri:0, instance:com.iitbombayX.TS04.TS04_TC05@110c2e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS04.TS04_TC05 -->
       <class name="com.iitbombayX.TS04.TS04_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@3b84ee]" name="beforeMethod" is-config="true" duration-ms="7082" started-at="2015-07-20T16:11:07Z" finished-at="2015-07-20T16:11:14Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@adb165]" name="beforeMethod" is-config="true" duration-ms="6663" started-at="2015-07-27T17:16:03Z" finished-at="2015-07-27T17:16:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@3b84ee]" name="testHomeFooterNav" duration-ms="7473" started-at="2015-07-20T16:11:14Z" finished-at="2015-07-20T16:11:21Z">
+        <test-method status="PASS" signature="testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@adb165]" name="testHomeFooterNav" duration-ms="6626" started-at="2015-07-27T17:16:09Z" finished-at="2015-07-27T17:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeFooterNav -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@3b84ee]" name="afterMethod" is-config="true" duration-ms="312" started-at="2015-07-20T16:11:21Z" finished-at="2015-07-20T16:11:22Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@adb165]" name="takeScreenShotOnFailure" is-config="true" duration-ms="223" started-at="2015-07-27T17:16:16Z" finished-at="2015-07-27T17:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeFooterNav status=SUCCESS method=TS04_TC02.testHomeFooterNav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC02@adb165] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS04.TS04_TC02 -->
       <class name="com.iitbombayX.TS04.TS04_TC01">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@1c118ae]" name="beforeMethod" is-config="true" duration-ms="6581" started-at="2015-07-20T16:10:48Z" finished-at="2015-07-20T16:10:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@183bfee]" name="beforeMethod" is-config="true" duration-ms="7507" started-at="2015-07-27T17:15:43Z" finished-at="2015-07-27T17:15:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="registration_header_nav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@1c118ae]" name="registration_header_nav" duration-ms="11516" started-at="2015-07-20T16:10:55Z" finished-at="2015-07-20T16:11:06Z">
+        <test-method status="PASS" signature="registration_header_nav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@183bfee]" name="registration_header_nav" duration-ms="11688" started-at="2015-07-27T17:15:51Z" finished-at="2015-07-27T17:16:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration_header_nav -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@1c118ae]" name="afterMethod" is-config="true" duration-ms="303" started-at="2015-07-20T16:11:06Z" finished-at="2015-07-20T16:11:07Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@183bfee]" name="takeScreenShotOnFailure" is-config="true" duration-ms="267" started-at="2015-07-27T17:16:02Z" finished-at="2015-07-27T17:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration_header_nav status=SUCCESS method=TS04_TC01.registration_header_nav()[pri:0, instance:com.iitbombayX.TS04.TS04_TC01@183bfee] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS04.TS04_TC01 -->
       <class name="com.iitbombayX.TS04.TS04_TC03">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@ce2c57]" name="beforeMethod" is-config="true" duration-ms="7466" started-at="2015-07-20T16:11:22Z" finished-at="2015-07-20T16:11:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@15978e7]" name="beforeMethod" is-config="true" duration-ms="7198" started-at="2015-07-27T17:16:16Z" finished-at="2015-07-27T17:16:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="RegistrationPageContent()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@ce2c57]" name="RegistrationPageContent" duration-ms="1253" started-at="2015-07-20T16:11:29Z" finished-at="2015-07-20T16:11:30Z">
+        <test-method status="PASS" signature="RegistrationPageContent()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@15978e7]" name="RegistrationPageContent" duration-ms="1164" started-at="2015-07-27T17:16:23Z" finished-at="2015-07-27T17:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrationPageContent -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@ce2c57]" name="afterMethod" is-config="true" duration-ms="209" started-at="2015-07-20T16:11:30Z" finished-at="2015-07-20T16:11:31Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@15978e7]" name="takeScreenShotOnFailure" is-config="true" duration-ms="174" started-at="2015-07-27T17:16:25Z" finished-at="2015-07-27T17:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegistrationPageContent status=SUCCESS method=TS04_TC03.RegistrationPageContent()[pri:0, instance:com.iitbombayX.TS04.TS04_TC03@15978e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS04.TS04_TC03 -->
     </test> <!-- TS04 -->
-    <test name="TS05" duration-ms="29801" started-at="2015-07-20T10:41:51Z" finished-at="2015-07-20T10:42:21Z">
+    <test name="TS05" duration-ms="30390" started-at="2015-07-27T11:46:46Z" finished-at="2015-07-27T11:47:16Z">
       <class name="com.iitbombayX.TS05.TS05_TC01">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@2f06b6]" name="beforeMethod" is-config="true" duration-ms="7275" started-at="2015-07-20T16:11:51Z" finished-at="2015-07-20T16:11:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@571688]" name="beforeMethod" is-config="true" duration-ms="7463" started-at="2015-07-27T17:16:46Z" finished-at="2015-07-27T17:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_page()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@2f06b6]" name="Login_page" duration-ms="4184" started-at="2015-07-20T16:11:58Z" finished-at="2015-07-20T16:12:02Z">
+        <test-method status="PASS" signature="Login_page()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@571688]" name="Login_page" duration-ms="4064" started-at="2015-07-27T17:16:54Z" finished-at="2015-07-27T17:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_page -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@2f06b6]" name="afterMethod" is-config="true" duration-ms="183" started-at="2015-07-20T16:12:02Z" finished-at="2015-07-20T16:12:03Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@571688]" name="takeScreenShotOnFailure" is-config="true" duration-ms="163" started-at="2015-07-27T17:16:58Z" finished-at="2015-07-27T17:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_page status=SUCCESS method=TS05_TC01.Login_page()[pri:0, instance:com.iitbombayX.TS05.TS05_TC01@571688] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS05.TS05_TC01 -->
       <class name="com.iitbombayX.TS05.TS05_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@161c602]" name="beforeMethod" is-config="true" duration-ms="6605" started-at="2015-07-20T16:12:03Z" finished-at="2015-07-20T16:12:09Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1884319]" name="beforeMethod" is-config="true" duration-ms="7333" started-at="2015-07-27T17:16:58Z" finished-at="2015-07-27T17:17:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="find_course()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@161c602]" name="find_course" duration-ms="11340" started-at="2015-07-20T16:12:09Z" finished-at="2015-07-20T16:12:20Z">
+        <test-method status="PASS" signature="find_course()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1884319]" name="find_course" duration-ms="11145" started-at="2015-07-27T17:17:05Z" finished-at="2015-07-27T17:17:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- find_course -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@161c602]" name="afterMethod" is-config="true" duration-ms="213" started-at="2015-07-20T16:12:20Z" finished-at="2015-07-20T16:12:21Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1884319]" name="takeScreenShotOnFailure" is-config="true" duration-ms="220" started-at="2015-07-27T17:17:16Z" finished-at="2015-07-27T17:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=find_course status=SUCCESS method=TS05_TC02.find_course()[pri:0, instance:com.iitbombayX.TS05.TS05_TC02@1884319] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.iitbombayX.TS05.TS05_TC02 -->
     </test> <!-- TS05 -->
+    <test name="TS06" duration-ms="0" started-at="2015-07-27T11:47:16Z" finished-at="2015-07-27T11:47:16Z">
+    </test> <!-- TS06 -->
   </suite> <!-- Automation Test Report Of IITBombayX -->
 </testng-results>

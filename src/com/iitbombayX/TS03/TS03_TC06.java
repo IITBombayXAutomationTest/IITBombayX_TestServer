@@ -1,7 +1,11 @@
 package com.iitbombayX.TS03;
 
 import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -10,9 +14,12 @@ import static org.junit.Assert.*;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.utility.Constant;
 
 public class TS03_TC06 {
 	
@@ -26,7 +33,7 @@ public class TS03_TC06 {
 	  public void testResetPassword() throws Exception {
 	    //driver.get(baseUrl + "/");
 	    
-	    try{
+	  
 	  driver.findElement(By.linkText("Log in")).click();
 	    
 	    
@@ -49,7 +56,7 @@ public class TS03_TC06 {
 	      driver.findElement(By.id("email")).clear();
 	     driver.findElement(By.id("email")).sendKeys("raj88.007@gmail.com");
 	    driver.findElement(By.id("password")).clear();
-	    driver.findElement(By.id("password")).sendKeys("design1234");
+	    driver.findElement(By.id("password")).sendKeys("design12345");
 	    driver.findElement(By.id("remember-yes")).click();
 	    driver.findElement(By.id("submit")).click();
 	    driver.findElement(By.linkText("edit")).click();
@@ -63,24 +70,7 @@ public class TS03_TC06 {
 	    
 	    
 	    
-	    } catch (Exception e){
-  		  System.out.println("I'm in exception");
-//calls the method to take the screenshot.
-  		  getscreenshot();
-   	  }
-    }
-    
-    public void getscreenshot() throws Exception 
-    {
-            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-         //The below method will save the screen shot in d drive with name "screenshot.png"
-            
-            
-            
-            FileUtils.copyFile(scrFile, new File("E:/selenium_workspace/IITBombayX_TestServer/screenshot/screenshot.png"));
-    }
-	    
-	  
+	    } 
 
     @BeforeMethod
     public void beforeMethod() {
@@ -95,13 +85,21 @@ public class TS03_TC06 {
 
         //Launch the Online Store Website
 
-        driver.get("http://10.129.50.4/");
+        driver.get(Constant.URL);
 
     }
-
     @AfterMethod
-    public void afterMethod() {
-  	  
-  	  driver.quit();
+    public void takeScreenShotOnFailure(ITestResult testResult) throws IOException { 
+
+        String className = this.getClass().getSimpleName();
+        String packageName = this.getClass().getName();
+        String filename = this.getClass().getName().toString();
+
+
+        if (testResult.getStatus() == ITestResult.FAILURE) {
+
+            Constant.takeScreenShotOnFailure(testResult,packageName,className,filename,driver);
+        }
+        driver.quit();
     }
 }
