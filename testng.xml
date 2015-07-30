@@ -1,6 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
  
 <suite name="Automation Test Report Of IITBombayX">
+
+	<listeners>
+        
+        <listener class-name="com.utility.ExtentReporterNG" />
+    </listeners>
+    
  
   <test name="TS01" >
 	<classes>
