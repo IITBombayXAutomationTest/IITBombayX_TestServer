@@ -46,7 +46,7 @@ public class ExtentReporterNG implements IReporter {
 
         if (tests.size() > 0) {
             for (ITestResult result : tests.getAllResults()) {
-                test = extent.startTest(result.getMethod().getMethodName());
+                test = extent.startTest(result.getInstanceName());
 
                 String message = "Test " + status.toString().toLowerCase() + "ed";
 
